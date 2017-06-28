@@ -1,0 +1,160 @@
+/*
+** GENERIC STYLING **
+*/
+
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+
+.voffset1 {
+    margin-top: 5px;
+}
+.voffset2 {
+    margin-top: 10px;
+}
+.voffset3 {
+    margin-top: 5px;
+}
+.voffset4 {
+    margin-top: 10px;
+}
+.container {
+    margin: 0 200px;
+}
+.btn {
+    padding: 6px 12px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-default {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.btn-primary {
+    background-color: #337ab7;
+    border: 1px solid #2e6da4;
+    color: #fff;
+}
+
+.btn:hover {
+    z-index: 2;
+}
+
+.btn-default:hover{
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+.btn-primary:hover {
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+.pull-right {
+    float: right;
+}
+
+/*
+** SPECIFIC STYLING **
+*/
+
+.table {
+    width : 100%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 18px;
+    border: 1px solid #dbdbdb;
+    margin-top: 30px;
+}
+
+.table tr {
+    margin: 0;
+}
+
+.table tr td {
+    border: 1px solid #dbdbdb;
+    cursor: pointer;
+    height: 55px;
+    width: 175px;
+}
+
+#ticTac {
+    width : 50%;
+    margin-left: 25%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#reset {
+    margin-bottom: 10px;
+
+}
+
+.sub-title {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#error {
+    color : #d43f3a;
+}
+
+
+@media (max-width: 1200px) {
+    .container {
+        margin: 0 150px;
+    }
+
+    #ticTac {
+        width : 60%;
+        margin-left: 20%;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 950px) {
+    .container {
+        margin: 0 100px;
+    }
+
+    #ticTac {
+        width : 70%;
+        margin-left: 15%;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        margin: 0 50px;
+    }
+
+    #ticTac {
+        width : 80%;
+        margin-left: 10%;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 0;
+    }
+
+    #ticTac {
+        width : 90%;
+        margin-left: 5%;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
